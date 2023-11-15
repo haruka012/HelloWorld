@@ -9,13 +9,13 @@ public class HelloWorldController {
     @GetMapping("/helloworld")
     public String helloworld(){return "Hello World!";}
 
-    @GetMapping("/worldgreeting")
-    public List<Greeting> worldgreetinglist(){
+    @GetMapping("/worldgreetings")
+    public List<Greeting> worldGreetingList(){
     List<Greeting> greetings = List.of(
-            new Greeting("Japan","こんにちは"),
-            new Greeting("China","你好"),
-            new Greeting("USA","Hello"),
-            new Greeting("France","Bonjour"));
+            new Greeting("Japan", "こんにちは"),
+            new Greeting("China", "你好"),
+            new Greeting("USA", "Hello"),
+            new Greeting("France", "Bonjour"));
     return greetings;
     }
 }
