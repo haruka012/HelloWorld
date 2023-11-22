@@ -8,7 +8,11 @@ public class Greeting {
         this.country = country;
         this.greeting = greeting;
     }
-    public String getCountry(){return country;}
+    public String getCountry(){
+        return country;
+    }
 
-    public String getGreeting(){return greeting;}
+    public String getGreeting(){
+        return greeting;
+    }
 }
